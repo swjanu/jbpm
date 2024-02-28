@@ -12,6 +12,7 @@
     <groupId>org.jbpm</groupId>
     <artifactId>jbpm</artifactId>
     <packaging>pom</packaging>
+    <version>7.74.1.SB3</version>
 
     <name>jBPM :: Multiproject</name>
     <description>jBPM: a Business Process Management (BPM) Suite</description>
@@ -167,7 +168,7 @@
             <dependency>
                 <groupId>org.jbpm</groupId>
                 <artifactId>jbpm-bom</artifactId>
-                <version>${version.org.kie}</version>
+                <version>${project.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
